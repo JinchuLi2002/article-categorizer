@@ -1,0 +1,5 @@
+evadb
+openai
+psycopg2
+nest_asyncio
+numpy
