@@ -5,7 +5,11 @@ import csv
 import re
 import nest_asyncio
 import numpy as np
-
+"""
+This script is made to provide a e2e experience, which takes in a directory of articles and a CSV of categories, and outputs the most relevant category for each article.
+The logic is largely the same as in report.ipynb.
+However due to hardware constraints, I could not test this script locally.
+"""
 def categorize_articles(article_dir_path, category_csv_path, api_key):
     # Initialization
     nest_asyncio.apply()
