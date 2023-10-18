@@ -1,0 +1,259 @@
+Skip to main content
+OPEN NAVIGATION MENU
+WIRED
+The PlayStation 5 Is Starting to Look Like the Revolution It Promised
+
+SIGN IN
+SUBSCRIBE
+SEARCH
+Backchannel
+Business
+Culture
+Gear
+Ideas
+Science
+Security
+Merch
+Podcasts
+Video
+Artificial Intelligence
+Climate
+Games
+Newsletters
+Magazine
+Events
+Wired Insider
+Jobs
+Coupons
+
+Get WIRED - now only $30 $5.
+ 
+SUBSCRIBE NOW
+PETER RUBINCULTUREMAY 12, 2021 12:00 PM
+The PlayStation 5 Is Starting to Look Like the Revolution It Promised
+What’s happening with Sony’s latest console, now that it’s been out for six months? Supply issues aside, it’s proving to be much more than a simple evolution.
+sony playstation 5
+Six months after its launch, there's a new phase of PlayStation 5 games on the horizon: titles that are leveraging the console’s capabilities to push forward.COURTESY OF SONY
+
+SIX MONTHS AFTER its November 12 debut, the PlayStation 5 is well on its way to being a success story for Sony. As of March 31, the company had sold 7.8 million of the new video game consoles worldwide—enough, in both units and dollars, to make it the biggest console launch in US history. Bigger than the Nintendo Wii. Bigger than the Xbox One. Bigger than even the PS4. And who knows what that number might be if everyone who wanted one was actually able to buy one.
+
+Tips on How to Snag a PlayStation 5 (Good Luck!)
+CONSOLE HUNT
+Tips on How to Snag a PlayStation 5 (Good Luck!)
+SIMON HILL
+
+The Race to Get a PlayStation 5 Is the Year’s Best Game
+IDEAS
+The Race to Get a PlayStation 5 Is the Year’s Best Game
+C. BRANDON OGBUNU
+
+20 Tips and Hidden Tricks for the PS5 (You Lucky Dog)
+UNTAPPED POTENTIAL
+20 Tips and Hidden Tricks for the PS5 (You Lucky Dog)
+SIMON HILL
+
+In the world of gaming, PlayStation reigns supreme, but it isn’t Supreme. It’s not engineering scarcity to create marketing buzz like a streetwear company; it’s trying to get its $399 console into customers’ hands. Which is exactly why, in the same breath that he’s using to discuss how the PS5 is outpacing even its mega-selling predecessor, Sony Interactive Entertainment president and CEO Jim Ryan is apologizing.
+
+“We’re working as hard as we can to ameliorate that situation,” Ryan says on a Zoom call, mere hours after receiving his second Covid-19 vaccination shot. “We see production ramping up over the summer and certainly into the second half of the year, and we would hope to see some sort of return to normality in terms of the balance between supply and demand during that period.”
+
+If you’re among the unlucky not-quite-few still having trouble getting their hands on one, you already know the beats of this story too well. Back in November, the twin launches of the PS5 and the Xbox Series X came in the midst of a global lockdown—and what felt like perfect timing for stir-crazy gamers proved to be a perfect storm for sales snafus. The same production and logistical snarls that made it damn near impossible to get a home appliance last year curtailed distribution. In the absence of factory visits and in-person quality checks, vendor relations became far more challenging. When release day finally came, the necessity of online-only sales opened the door for bots and predatory resellers to scoop up big chunks of precious inventory and jack the prices higher than Usher’s falsetto. And then there’s the semiconductor shortage that has affected TV companies and carmakers alike.
+
+So promises of amelioration may feel like cold comfort. But whether you’re among the 7.8 million who already have a PS5, or the millions who might have one if not for that whole unprecedented-global-disruption thing, the real question is whether the PS5 is delivering the experience. Are developers harnessing its feature set to create games that weren't possible before? Have first-party and indie studios navigated the pandemic well enough to keep the pipeline of exclusive titles stocked? Is the PS5 proving to be, as PlayStation chief architect Mark Cerny promised two years ago, a revolution rather than an evolution?
+
+The short answer is yes. The slightly longer and more accurate answer is, it’s getting there.
+
+TRENDING NOW
+
+
+Tech Effects: How Video Games Impact You
+
+MOST POPULAR
+Deepfake Porn Is Out of Control
+SECURITY
+Deepfake Porn Is Out of Control
+MATT BURGESS
+
+Millions of Workers Are Training AI Models for Pennies
+BUSINESS
+Millions of Workers Are Training AI Models for Pennies
+NIAMH ROWE
+
+These Are the 15 Android Phones Worth Buying
+GEAR
+These Are the 15 Android Phones Worth Buying
+JULIAN CHOKKATTU
+
+I’m Charging My Toothbrush With Wireless Power Over Distance&-and It’s a Trip
+GEAR
+I’m Charging My Toothbrush With Wireless Power Over Distance—and It’s a Trip
+SIMON HILL
+
+THE DAY A new game console comes out is about far more than a shiny new piece of hardware. It’s also traditionally a chance for a company to make an argument for said hardware through software—including games that could only be played on that console. System-sellers can happen anytime, but launch system-sellers are a special breed. Think Halo: Combat Evolved on the original Xbox. Resogun on the PS4. Super Mario 64. The Legend of Zelda: Breath of the Wild. Hell, think Wii Sports. (And yes, Nintendo has always leaned on its launch titles harder than anyone. It’s had to—it doesn’t compete on console horsepower, instead attracting customers with gotta-play-it first-party exclusives.)
+
+But by 2020, when the Series X and PlayStation 5 arrived to signal the dawn of a new generation, those expectations had changed somewhat. The PS5 may have launched with a dozen titles, but nearly all the standouts, from Spider-Man: Miles Morales to Assassin’s Creed: Valhalla, could be played either on the PlayStation 4 or another platform. On paper, this might have been disappointing. Consider, though, that the best PS5 games weren’t there to be exclusives; they were there to be showcases.
+
+People could web-swing through Manhattan as Miles Morales on their PS4, but they couldn’t fast-travel across the city in mere seconds unless they were on a PS5, with its load-time-killing solid-state hard drive. They could enjoy the scenery on the PS4, but they couldn’t see Miles’ reflection in buildings and puddles as they passed without the ray tracing effects that the PS5 enabled. ”When you can see true reflections in a video game, it's a pretty spectacular moment for players,” says Ted Price, founder and CEO of Spider-Man developer Insomniac Games.
+
+returnal creature
+The Next-Gen Console Games You Should Actually Care About
+The Xbox Series X and PlayStation 5 have some great games coming this year—assuming schedules hold. Here's a quick rundown of some great ones. 
+BY BRITTANY VINCENT
+
+Beyond dialing up eye candy and intensity, those early titles also became a barometer by which Sony Interactive could gauge how developers were utilizing the new features the PS5 made possible—not just ray tracing or the SSD, but 3D audio capabilities, or the robust haptics of the DualSense controller and its “adaptive triggers” that can deliver variable pressure. Just because a machine can do something doesn’t mean developers will take advantage of it, either immediately or at all. But last summer, at a console reveal event, Sony showed off a double handful of titles that would be arriving for the PS5, six of which featured ray tracing. “That’s astonishing,” says Cerny. “I thought ray tracing was something that would be used in second- and third-generation titles. I thought that maybe an early title might show a little bit about the potential, and it would be one of those things where you’d be wondering, as somebody involved with the creation of the hardware, was this worthwhile to be put in, given the associated cost in silicon? And to have that question answered the very first time titles were shown in public was amazing.”
+
+Amazing because some console tech never catches on, either because it’s simply not intuitive (Cerny cites the PlayStation Vita’s rear touchpad) or because it takes time to learn the intricacies of a new machine. Anytime a new console is on the horizon, and again when it's released, Cerny travels around the world talking to studios about its capabilities, and he’s heard it all—including literal boos, as when he told one unnamed developer years ago that the forthcoming PS4 might use a bit of Flash memory to help cache data. (The boo worked; Sony moved away from that architecture choice.)
+
+MOST POPULAR
+Deepfake Porn Is Out of Control
+SECURITY
+Deepfake Porn Is Out of Control
+MATT BURGESS
+
+Millions of Workers Are Training AI Models for Pennies
+BUSINESS
+Millions of Workers Are Training AI Models for Pennies
+NIAMH ROWE
+
+These Are the 15 Android Phones Worth Buying
+GEAR
+These Are the 15 Android Phones Worth Buying
+JULIAN CHOKKATTU
+
+I’m Charging My Toothbrush With Wireless Power Over Distance&-and It’s a Trip
+GEAR
+I’m Charging My Toothbrush With Wireless Power Over Distance—and It’s a Trip
+SIMON HILL
+
+Cerny’s most recent developer tour happened virtually, of course, but he was surprised by what he found. “The conversations can be very contentious,” he says. “I actively seek out the people who will have strong opinions, who clearly lay out all the issues they're having with the hardware, so that we can get busy thinking about how we can address those in the future.” The PS3’s architecture made it difficult to get a graphics pipeline going; the PS4’s CPU wasn’t as powerful as folks hoped. The PS5, Cerny says, has found miraculously little pushback.
+
+NOW, SIX MONTHS after launch, a new phase of PS5 games has begun: titles that are leveraging the console’s capabilities to push forward. First was Returnal, a console exclusive from Housemarque, the same studio that created PS4 standout Resogun. The creepy roguelike shooter received raves for its inversive narrative techniques and atmospheric gameplay—gameplay that tapped into the PS5’s 3D audio and haptics like nothing before it. When players run through an overgrown biome on a hostile alien planet, the raindrops somehow feel like they’re coming through the controller itself. Aiming your weapon at an attacking creature is a two-part process: Your trigger stops halfway to use your usual sidearm, and depressing it more unlocks the weapon's secondary function. (Astro’s Playroom, a cute platformer from first-party Japan Studios that came preinstalled on the PS5, shows off the DualSense’s haptics as well, but it functions as a tech demo as much as a game.)
+
+COURTESY OF INSOMNIAC GAMES
+MOST POPULAR
+SECURITY
+Deepfake Porn Is Out of Control
+MATT BURGESS
+
+BUSINESS
+Millions of Workers Are Training AI Models for Pennies
+NIAMH ROWE
+
+GEAR
+These Are the 15 Android Phones Worth Buying
+JULIAN CHOKKATTU
+
+GEAR
+I’m Charging My Toothbrush With Wireless Power Over Distance—and It’s a Trip
+SIMON HILL
+
+Housemarque isn’t even a first-party developer; what’s coming from the collection of companies under the PlayStation Studios umbrella bears out the breadth and depth of the pipeline. In June, Insomniac will follow up Miles Morales with Ratchet and Clank: Rift Apart, the newest installment in its long-running platform shooter franchise. The SSD’s impact is on full display there, allowing players to walk through dimensional portals and emerge nearly instantly into an entirely other level. Later this year, Guerrilla Games will release Horizon Forbidden West, a sequel to its massive 2017 hit Horizon Zero Dawn. While Forbidden West will be available on the PS4 as well, Guerrilla studio director Angie Smets credits the DualSense’s haptics capabilities with allowing special sauce well beyond fast travel and graphical fidelity. ”If you want to take a stealth approach to a combat situation and you dive into long grass,” she says, “you can feel those long grass leaves.”
+
+According to Hermen Hulst, a Guerrilla cofounder whom Jim Ryan tapped to lead PlayStation Studios in 2019, the group has more than 25 titles in development for the PS5—nearly half of which are entirely new IP. “There’s an incredible amount of variety originating from different regions,” Hulst says. “Big, small, different genres.” And in many of those cases, Sony’s shared services became a lifeline for studios navigating lockdown. Having moved all its employees home in early 2020, Guerilla Games found itself staring down the barrel of a game that hadn’t even finished its voice and performance capture, let alone play-testing. For the audio, Guerrilla shipped recording booths to the voice actors’ homes. Performance capture was tougher, since it couldn’t use its usual facilities in California, but last summer the studio moved into a new Amsterdam space they’d designed to have a motion-capture stage; that, plus some very careful hygiene, allowed them to get what they needed. And the play-testing? Well, it’s a good thing Sony had invested in cloud gaming for its streaming service PlayStation Now. “Seeing that first play test using PlayStation was a huge relief,” says Smets. “Knowing that, ‘OK, great, we can continue.’”
+
+Sign Up Today
+
+Sign up for our Games newsletter and never miss our latest gaming tips, reviews, and features.
+Indies are getting in on the fun too. Haven Studios, a new venture from industry veteran Jade Raymond, has partnered with Sony for its next game, as has Firewalk Studios for an unannounced multiplayer title. Ember Lab, an animation and digital studio, is releasing its first major game, the Zelda-esque Kena: Bridge of Spirits, in August; while the game began its life as a PS4 title, Sony encouraged cofounders (and brothers) Josh and Mike Grier to make it available on both. Now, the pair is excited not just about what they’ve been able to do with the added horsepower—more characters onscreen, 3D audio, using the haptics to make the protagonist’s bow and arrow feel as lifelike as possible—but what they’ve learned for when it comes time to make their next title. “Our groundwork was on the PS4,” says Josh Grier. “But looking at game two, focusing on taking advantage of the SSD and building mechanics and tools around that, will be really fun. I know for sure we haven't fully taken advantage of how actually fast it is—we were getting a lot of benefits of it being just out-of-the-box better. But I think you can push it even more.”
+
+Save for Returnal, of course, all that’s in the offing. But just because the best might be yet to come doesn't mean PS5 owners haven't been using it so far: According to Sony spokespeople, from launch through the end of March, users logged 81 percent more time on the console than on the PS4 during its own comparable period in 2013-14. Similarly, 11 percent more game units have been sold during the PS5's first five months than on its predecessor. Is some of that thanks to increased home time? No question. Across the PlayStation ecosystem, user gameplay time was 20 percent higher in March 2021 than the same month in 2019. There's some irony, of course, in the fact that the thing driving usage is also in part driving shortages. "What you’re seeing is the high demand that we’ve seen during the pandemic coming across all aspects of consumer electronics," says Carolina Milanesi, president and principal analyst at Creative Strategies. "Televisions, consoles: We were just online more than we ever have been before."
+
+MOST POPULAR
+SECURITY
+Deepfake Porn Is Out of Control
+MATT BURGESS
+
+BUSINESS
+Millions of Workers Are Training AI Models for Pennies
+NIAMH ROWE
+
+GEAR
+These Are the 15 Android Phones Worth Buying
+JULIAN CHOKKATTU
+
+GEAR
+I’m Charging My Toothbrush With Wireless Power Over Distance—and It’s a Trip
+SIMON HILL
+
+But it also speaks to the strength of the offerings—even if they represent earlyish explorations of the PS5 feature set. Many of the cross-platform titles performed better on the PS5 than they did on the Xbox Series X, for instance. And for the folks inside the company who have been playing preview builds, there’s a feeling of deep satisfaction about what’s to come. “I spent some time yesterday with Horizon Forbidden West for the first time in seven or eight months,” says Hermen Hulst, who had been involved with the game in its early years before leaving Guerrilla to head up PlayStation Studios. “To step away and to come back to it? Talk about giving me a gift.”
+
+More Great WIRED Stories
+📩 The latest on tech, science, and more: Get our newsletters!
+The cold war over McDonald's hacked ice cream machines
+One thing Covid didn’t smash to pieces? Monster movies
+Sharks use the Earth’s magnetic field like a compass
+It began as an AI-fueled dungeon game. It got much darker
+Hackers used to be humans. Soon, AIs will hack humanity
+👁️ Explore AI like never before with our new database
+🎮 WIRED Games: Get the latest tips, reviews, and more
+📱 Torn between the latest phones? Never fear—check out our iPhone buying guide and favorite Android phones
+
+Contributing editor Peter Rubin writes about pop culture, sports technology, and AR/VR for WIRED. His book Future Presence: How Virtual Reality Is Changing Human Connection, Intimacy, and the Limits of Ordinary Life was published in April 2018.
+CONTRIBUTING EDITOR
+TOPICS
+PLAYSTATION
+SONY
+VIDEO GAMES
+XBOX
+MORE FROM WIRED
+Grimes on Living Forever, Dying on Mars, and Giving Elon Musk Ideas for His Best (Worst) Tweets
+Claire Boucher is open sourcing her musical persona to let people create their own version of Grimes with AI.
+STEVEN LEVY
+
+The Battle Over Books3 Could Change AI Forever
+Copyright activists are on a mission to wipe a popular generative AI training set from the internet. Success could alter the industry—and who controls it.
+KATE KNIBBS
+
+The End of Burning Man Is Also Its Future
+Unpredictable and extreme weather is eating Burning Man alive. Now organizers and attendees are faced with a decision: Enact large-scale policy changes or bag the whole thing.
+ALDEN WICKER
+
+The Burning Man Fiasco Is the Ultimate Tech Culture Clash
+Climate change, protests, tech, elitism, (untrue) Ebola rumors—everything converged when heavy rains left thousands of people stranded in the Nevada desert.
+ANGELA WATERCUTTER
+
+Why This Award-Winning Piece of AI Art Can’t Be Copyrighted
+Matthew Allen’s AI art won first prize at the Colorado State Fair. But the US government has ruled it can’t be copyrighted because it’s too much “machine” and not enough “human.”
+KATE KNIBBS
+
+The Dark History Oppenheimer Didn't Show
+Coming from the Congo, I knew where an essential ingredient for atomic bombs was mined, even if everyone else seemed to ignore it.
+NGOFEEN MPUTUBWELE
+
+None of Your Photos Are Real
+Tools like Google’s Pixel 8 AI photo editor are ushering in a deepening distrust of everything we see. Welcome to our new counterfeit reality.
+JASON PARHAM
+
+40 Amazingly Addictive Couch Co-Op Games
+Settle in for some bonding time. These are our favorite cooperative titles for two to eight players, all playable on a single TV.
+SIMON HILL
+
+Wired logo
+Get 1 year for $30 $5
+Wired robot
+SUBSCRIBE
+WIRED
+WIRED is where tomorrow is realized. It is the essential source of information and ideas that make sense of a world in constant transformation. The WIRED conversation illuminates how technology is changing every aspect of our lives—from culture to business, science to design. The breakthroughs and innovations that we uncover lead to new ways of thinking, new connections, and new industries.
+MORE FROM WIRED
+
+Subscribe
+Newsletters
+FAQ
+Wired Staff
+Press Center
+Coupons
+Editorial Standards
+Archive
+CONTACT
+
+Advertise
+Contact Us
+Customer Care
+Jobs
+RSS
+Accessibility Help
+Condé Nast Store
+COOKIES SETTINGS
+© 2023 Condé Nast. All rights reserved. Use of this site constitutes acceptance of our User Agreement and Privacy Policy and Cookie Statement and Your California Privacy Rights. WIRED may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast. Ad Choices
+
+Select international site
+United States
