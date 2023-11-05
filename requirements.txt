@@ -1,5 +1,8 @@
-evadb
+evadb[documents]
 openai
-psycopg2
 nest_asyncio
 numpy
+click
+torch
+transformers
+faiss-cpu
