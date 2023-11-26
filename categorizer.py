@@ -3,6 +3,7 @@ import openai
 import os
 import csv
 import re
+import json
 import nest_asyncio
 import numpy as np
 """
@@ -15,12 +16,80 @@ However due to hardware constraints, I could not test this script locally.
 class Categorizer:
     def __init__(self, api_key, category_csv_path, article_dir_path):
         openai.api_key = api_key
+        os.environ['OPENAI_API_KEY'] = api_key
         path = os.path.dirname(evadb.__file__)
         self.cursor = evadb.connect(path).cursor()
         self.api_key = api_key
         # self.cursor = evadb.connect().cursor()
         self.category_csv_path = category_csv_path
         self.article_dir_path = article_dir_path
+
+    def cache_summary_exists(self, article_id):
+        """Check if the summary cache exists for a given article."""
+        cache_file = os.path.join('summary_cache', f'{article_id}.json')
+        return os.path.exists(cache_file)
+
+    def read_cached_summary(self, article_id):
+        """Read and return the cached summary."""
+        with open(os.path.join('summary_cache', f'{article_id}.json'), 'r') as file:
+            return json.load(file)
+
+    def cache_summary(self, article_id, summary):
+        """Cache the summary."""
+        os.makedirs('summary_cache', exist_ok=True)
+        with open(os.path.join('summary_cache', f'{article_id}.json'), 'w') as file:
+            json.dump(summary, file)
+
+    def populate_articles_table(self):
+        self.cursor.query("""
+            DROP TABLE IF EXISTS articles
+        """).df()
+        self.cursor.query("""
+            CREATE TABLE articles (id INTEGER, article TEXT(30000))
+        """).df()
+
+        texts = []
+        for filename in os.listdir(self.article_dir_path):
+            if filename.endswith('.txt'):
+                with open(os.path.join(self.article_dir_path, filename), 'r') as file:
+                    text = file.read().replace("\n", " ")
+                    text = re.sub(r'[^A-Za-z ]', '', text)
+                    texts.append(text)
+
+        # Create a temporary table for summaries
+        self.cursor.query("""DROP TABLE IF EXISTS temp_summaries""").df()
+        self.cursor.query("""
+            CREATE TABLE temp_summaries (id INTEGER, summary_text TEXT)
+        """).df()
+
+        for i, t in enumerate(texts):
+            self.cursor.query(
+                f"INSERT INTO articles (id, article) VALUES ({i}, '{t}')").df()
+
+            # Check for cached summary
+            if self.cache_summary_exists(i):
+                summary = self.read_cached_summary(i)
+            else:
+                # If no cache, generate summary and cache it
+                summary = self.cursor.query(
+                    f"SELECT TextSummarizer('{t}')").df().iloc[0, 0]
+                self.cache_summary(i, summary)
+
+            # Insert summary into temporary table
+            self.cursor.query(
+                f"INSERT INTO temp_summaries (id, summary_text) VALUES ({i}, '{summary}')").df()
+
+        # Create the articles_with_summaries table
+        self.cursor.query("""
+            DROP TABLE IF EXISTS articles_with_summaries
+        """).df()
+
+        self.cursor.query("""
+            CREATE TABLE articles_with_summaries AS
+            SELECT a.id, a.article, t.summary_text
+            FROM articles AS a
+            JOIN temp_summaries AS t ON a.id = t.id
+        """).df()
 
     def get_kth_level_categories(self, k):
         """
@@ -47,29 +116,72 @@ class Categorizer:
         def filter_english_chars(text):
             return re.sub(r'[^A-Za-z ]', '', text)
 
-        self.cursor.query("""
-            DROP TABLE IF EXISTS categories
-        """).df()
-        self.cursor.query("""
-            CREATE TABLE categories (id INTEGER, category TEXT(30))
-        """).df()
+        self.cursor.query("DROP TABLE IF EXISTS categories").df()
+        self.cursor.query(
+            "CREATE TABLE categories (id INTEGER, category TEXT(30))").df()
 
         nest_asyncio.apply()
         third_level_categories = self.get_kth_level_categories(3)
         categories_list = list(third_level_categories)
-        # Filter each category to retain only English characters and spaces
         filtered_categories = sorted(
-            [filter_english_chars(category) for category in categories_list])
+            [filter_english_chars(category) for category in categories_list])[:30]
 
-        data_to_insert = [(idx, category)
-                          for idx, category in enumerate(filtered_categories)][:30]
-
-        for idx, category in data_to_insert:
-            # Use executemany to insert all rows
+        for idx, category in enumerate(filtered_categories):
             self.cursor.query(
                 f"INSERT INTO categories (id, category) VALUES ({idx}, '{category}')").df()
 
     def populate_articles_table(self):
+        self.cursor.query("""
+            DROP TABLE IF EXISTS articles
+        """).df()
+        self.cursor.query("""
+            CREATE TABLE articles (id INTEGER, article TEXT(30000))
+        """).df()
+
+        texts = []
+        for filename in os.listdir(self.article_dir_path):
+            if filename.endswith('.txt'):
+                with open(os.path.join(self.article_dir_path, filename), 'r') as file:
+                    text = file.read().replace("\n", " ")
+                    text = re.sub(r'[^A-Za-z ]', '', text)
+                    texts.append(text)
+
+        self.cursor.query("""DROP TABLE IF EXISTS temp_summaries""").df()
+        # Create a temporary table for summaries
+        self.cursor.query("""
+            CREATE TABLE temp_summaries (id INTEGER, summary_text TEXT)
+        """).df()
+
+        for i, t in enumerate(texts):
+            self.cursor.query(
+                f"INSERT INTO articles (id, article) VALUES ({i}, '{t}')").df()
+
+            # Check for cached summary
+            if self.cache_summary_exists(i):
+                summary = self.read_cached_summary(i)
+            else:
+                # If no cache, generate summary and cache it
+                summary = self.cursor.query(
+                    f"SELECT TextSummarizer('{t}')").df().iloc[0, 0]
+                self.cache_summary(i, summary)
+
+            # Insert summary into temporary table
+            self.cursor.query(
+                f"INSERT INTO temp_summaries (id, summary_text) VALUES ({i}, '{summary}')").df()
+
+        # Create the articles_with_summaries table
+        self.cursor.query("""
+            DROP TABLE IF EXISTS articles_with_summaries
+        """).df()
+
+        self.cursor.query("""
+            CREATE TABLE articles_with_summaries AS
+            SELECT a.id, a.article, t.summary_text
+            FROM articles AS a
+            JOIN temp_summaries AS t ON a.id = t.id
+        """).df()
+
+    def _old_populate_articles_table(self):
         self.cursor.query("""
             DROP TABLE IF EXISTS articles
         """).df()
