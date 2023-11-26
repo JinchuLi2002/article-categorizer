@@ -70,6 +70,12 @@ class Categorizer:
             if self.cache_summary_exists(i):
                 summary = self.read_cached_summary(i)
             else:
+                self.cursor.query("""
+                CREATE FUNCTION IF NOT EXISTS TextSummarizer
+                TYPE HuggingFace
+                TASK 'summarization'
+                MODEL 'facebook/bart-large-cnn';
+                """).df()
                 # If no cache, generate summary and cache it
                 summary = self.cursor.query(
                     f"SELECT TextSummarizer('{t}')").df().iloc[0, 0]
